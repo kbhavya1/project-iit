@@ -1,0 +1,86 @@
+body{
+	margin:0 auto;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"]{display:none;}
+
+.container{
+  clear: left;
+  float: left;
+	width: 1064px;
+	height: 518px;
+	text-align: center;
+}
+.header{
+	height: 50px;
+	text-align: center;
+	background-color: rgba(47, 109, 190, 1);
+	margin:0 auto;
+}
+.header2{
+	height: 40px;
+	text-align: left !important;
+	background-color: rgba(184, 232, 244, 1);
+	margin:0 auto;
+}
+.details1{
+	color: #5c6066;
+  font-size: 30px;
+  margin-left: 15px;
+  text-align: center;
+}
+.ender{
+  height:23px;
+  margin-top:  calc(100vh - 131px);;
+  background-color: #5d658c;
+}
+.headings{
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #5c6066;
+ font-size: 9px;
+ margin-left: -370px;
+ margin-top: -3px;
+ text-align: left!important;
+}
+.right_container{
+  background: linear-gradient(0deg, #D6D6D6, white 80%) no-repeat;
+  float: right;
+min-height: calc(100vh - 73px);
+  width: 280px;
+  border-left: 1px solid black;
+}
+.btn-primary-blue {
+    background-color: #38aae9;
+    border-color: #000000;
+        border-radius: 2px;
+    color: #ffffff;
+}
+.btn-primary:hover {
+    background-color: #0c7cd5;
+    border-color: #000000;
+        border-radius: 2px;
+    color: #ffffff;
+
+}
+.btn {
+cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 39px;
+    line-height: 39px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: middle!important;
+    border-radius: 2px;
+    white-space: nowrap;
+    border: 1px solid grey;
+}
+.btn-primary {
+    background-color: #fff;
+    color: #252525;
+}

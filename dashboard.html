@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            .botDiv{
+                background: rgb(231,231,231);
+                border-radius: 1vh;
+                height: 6vh;
+            }
+            
+            button {
+                display: inline-block;
+                height: 40px;
+                background-color: #4CAF50;
+                }
+            
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--image div-->
+        <div class="col-md-12">
+            <img src="dashbord.png" alt="dasboard">
+        </div>
+        <!--bottom div-->
+        <div class="col-md-12 botDiv">
+            <button id="next" type="button" style="float:right;">Start Test</button>
+        </div>
+        
+        <script>
+           document.getElementById("next").onclick = function(){
+        location.href="instructions.php";
+           }
+        </script>
+        
+    </body>
+</html>

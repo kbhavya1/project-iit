@@ -1,0 +1,161 @@
+body{
+	margin:0 auto;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"]{display:none;}
+
+.container{
+	width: 370px;;
+	height: 270px;
+	text-align: center;
+	background-color: rgba(245, 245, 247, 1);
+	border-radius: 5px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 4px;
+	margin:40px auto;
+	margin-top: 20px;
+}
+.header{
+	height: 50px;
+	text-align: center;
+	background-color: rgba(47, 109, 190, 1);
+	border-bottom:solid white 1px;
+	margin:0 auto;
+}
+.header2{
+	height: 149px;
+	text-align: left !important;
+	background-color: rgba(102, 102, 102, 1);
+	margin:0 auto;
+		border-top:solid black 1px;
+	border-bottom:solid black 1px;
+}
+.details1{
+	color: #fff200;
+  font-size: 44px;
+  margin-left: 5px;
+  text-align: left;
+}
+.headings{
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+ font-size: 9px;
+ margin-left: -370px;
+ margin-top: -3px;
+ text-align: left!important;
+}
+.headings2{
+		float: right;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #ffffff;
+	 font-size: 9px;
+	 margin-right: 10px;
+	 margin-top: -3px;
+	 text-align: right!important;
+}
+#headerr{
+	width:100%;
+ border-top-left-radius:5px;
+ border-top-right-radius: 5px;
+	background: #DDDDDD;
+	height: 35px;
+}
+input[type="text"]{
+	/* background-color: #3b4148;*/
+ /*  border-radius: 0px 3px 3px 0px;*/
+   color: #a9a9a9;
+   margin-bottom: 1em;
+   padding: 0 16px;
+   width: 186px;
+   height: 42px;
+   border:1px solid #cacaca;
+	 	margin-left: -70px;
+   margin-top:8px\9;
+}
+input[type="password"] {
+  /*background-color: #3b4148;*/
+/*  border-radius: 0px 3px 3px 0px;*/
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 186px;
+  height: 42px;
+  border:1px solid #cacaca;
+	margin-left: -70px;
+    margin-top:8px\9;
+ }
+.fontawesome-user{
+border:1px solid #cacaca;
+border-radius: 3px 0px 0px 3px;
+border-right: 0px solid #434a52;
+color: #606468;
+display: block;
+float: left;
+line-height: 50px;
+text-align: center;
+width: 49px;
+height: 35px;
+margin-top:6px\9;
+margin-left: 65px;
+padding-top: 5px;
+}
+.fontawesome-lock{
+border:1px solid #cacaca;
+border-radius: 3px 0px 0px 3px;
+border-right: 0px solid #434a52;
+color: #606468;
+display: block;
+float: left;
+line-height: 50px;
+text-align: center;
+width: 49px;
+height: 35px;
+margin-top:6px\9;
+margin-left: 65px;
+padding-top: 5px;
+}
+#signInLabel{
+  background: #38aae9;
+  border: 0;
+  width: 280px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-top: 40px;
+}
+#signInLabel:hover {
+  background: #0C7CD5;
+}
+.btn-primary-blue {
+    background-color: #38aae9;
+    border-color: #38aae9;
+    color: #ffffff;
+}
+.btn-primary:hover {
+    background-color: #0c7cd5;
+    border-color: #0a68b4;
+    color: #ffffff;
+
+}
+.btn {
+
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 39px;
+    line-height: 39px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.btn-primary {
+    background-color: #fff;
+    color: #252525;
+}
